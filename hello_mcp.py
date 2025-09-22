@@ -10,7 +10,6 @@ def get_random_name(names: list = None) -> str:
        names:the user can pass in a list of names to choose from, or it will default to a predefined list.
     """
 
-
     #If names is provided and not empty, use it; otherwise, use a default list
     if names and isinstance(names, list):
         return choice(names)
