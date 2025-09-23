@@ -1,9 +1,8 @@
+from typing import Any, Dict, List, Optional
 from mcp.server.fastmcp import FastMCP
 import sqlite3
-from typing import Any, Dict, List, Optional
 
-
-mcp = FastMCP("Sqlite Server")
+mcp = FastMCP("SQLite Server")
 
 DB_PATH = "C:\\Users\\shukl\\OneDrive\\Desktop\\MCP COURSE\\db\\"
 
